@@ -39,10 +39,4 @@ public class CoffeeShopCalc {
 
         return roundToNumDecimalPlaces(totalWithDeductions, 2);
     }
-
-    public static void main(String[] args) {
-        CoffeeShopCalc calc = new CoffeeShopCalc();
-        System.out.println(calc.priceToPay(12, 1, 3, 5));
-    }
-
 }
